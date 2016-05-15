@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <databaseIdProvider type="">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://10.11.0.56:3307/game_oem2?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull"/>
+        <property name="user" value="root"/>
+        <property name="password" value="root"/>
+    </databaseIdProvider>
+	<mappers>
+		<package name="com.zs.study.mybatis" />
+	</mappers>
+</configuration>
